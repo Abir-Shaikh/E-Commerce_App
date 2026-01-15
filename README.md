@@ -20,13 +20,21 @@ It is designed for learning Spring Core fundamentals, not for production use.
 The application follows a layered architecture:
 
 MainApp
+
   ↓
+  
 ProductController (@Controller)
+
   ↓
+  
 ProductService (@Service)
+
   ↓
+  
 PaymentService (@Service Interface)
+
   ↓
+  
 ProductRepository (@Repository)
 
 📁 Project Structure
