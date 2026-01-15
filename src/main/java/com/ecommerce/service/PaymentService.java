@@ -1,4 +1,8 @@
 package com.ecommerce.service;
 
-public class PaymentService {
+public interface PaymentService {
+    void pay(double amount);
 }
+
+
+//This is a common interface for all payment methods.
